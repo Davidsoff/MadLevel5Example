@@ -3,26 +3,24 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
-    app:startDestination="@id/FirstFragment">
+    app:startDestination="@id/remindersFragment">
 
     <fragment
-        android:id="@+id/FirstFragment"
+        android:id="@+id/remindersFragment"
         android:name="nl.soffware.madlevel3example.RemindersFragment"
         android:label="@string/first_fragment_label"
         tools:layout="@layout/fragment_reminders">
-
         <action
-            android:id="@+id/action_FirstFragment_to_SecondFragment"
-            app:destination="@id/SecondFragment" />
+            android:id="@+id/action_remindersFragment_to_addReminderFragment"
+            app:destination="@id/addReminderFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim"
+            app:popEnterAnim="@anim/nav_default_pop_enter_anim"
+            app:popExitAnim="@anim/nav_default_pop_exit_anim" />
     </fragment>
     <fragment
-        android:id="@+id/SecondFragment"
+        android:id="@+id/addReminderFragment"
         android:name="nl.soffware.madlevel3example.AddReminderFragment"
         android:label="@string/second_fragment_label"
-        tools:layout="@layout/fragment_reminders_add">
-
-        <action
-            android:id="@+id/action_SecondFragment_to_FirstFragment"
-            app:destination="@id/FirstFragment" />
-    </fragment>
+        tools:layout="@layout/fragment_add_reminder" />
 </navigation>
