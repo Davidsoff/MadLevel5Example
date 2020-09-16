@@ -40,10 +40,6 @@ class RemindersFragment : Fragment() {
 
     private fun initViews() {
         // Initialize the recycler view with a linear layout manager, adapter
-        val background =
-            ColorDrawable(ContextCompat.getColor(requireContext(), R.color.colorAccent))
-        val icon = ContextCompat.getDrawable(requireContext(), android.R.drawable.ic_delete)
-
         rvReminders.layoutManager =
             LinearLayoutManager(context, RecyclerView.VERTICAL, false)
         rvReminders.adapter = reminderAdapter
