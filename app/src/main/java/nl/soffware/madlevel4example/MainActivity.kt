@@ -1,8 +1,6 @@
-package nl.soffware.madlevel3example
+package nl.soffware.madlevel4example
 
 import android.os.Bundle
-import com.google.android.material.floatingactionbutton.FloatingActionButton
-import com.google.android.material.snackbar.Snackbar
 import androidx.appcompat.app.AppCompatActivity
 import android.view.Menu
 import android.view.MenuItem

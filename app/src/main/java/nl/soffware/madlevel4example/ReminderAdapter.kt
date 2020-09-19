@@ -1,10 +1,11 @@
-package nl.soffware.madlevel3example
+package nl.soffware.madlevel4example
 
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import kotlinx.android.synthetic.main.item_reminder.view.*
+import nl.soffware.madlevel4example.data_classes.Reminder
 
 class ReminderAdapter(private val reminders: List<Reminder>) : RecyclerView.Adapter<ReminderAdapter.ViewHolder>() {
     class ViewHolder(itemView: View): RecyclerView.ViewHolder(itemView) {

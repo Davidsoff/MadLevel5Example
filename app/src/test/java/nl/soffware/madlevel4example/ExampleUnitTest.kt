@@ -1,4 +1,4 @@
-package nl.soffware.madlevel3example
+package nl.soffware.madlevel4example
 
 import org.junit.Test
 
