@@ -11,7 +11,7 @@ android {
     buildToolsVersion "30.0.2"
 
     defaultConfig {
-        applicationId "nl.soffware.madlevel4example"
+        applicationId "nl.soffware.madLevel5Example"
         minSdkVersion 23
         targetSdkVersion 29
         versionCode 1

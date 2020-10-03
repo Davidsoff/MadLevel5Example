@@ -1,4 +1,4 @@
-package nl.soffware.madlevel4example.data_classes
+package nl.soffware.madLevel5Example.data_classes
 
 import androidx.room.ColumnInfo
 import androidx.room.Entity

@@ -1,4 +1,4 @@
-package nl.soffware.madlevel4example
+package nl.soffware.madlevel5example.ui
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
@@ -7,6 +7,7 @@ import android.view.MenuItem
 import androidx.navigation.NavController
 import androidx.navigation.findNavController
 import kotlinx.android.synthetic.main.activity_main.*
+import nl.soffware.madLevel5Example.R
 
 class MainActivity : AppCompatActivity() {
     private lateinit var navController: NavController

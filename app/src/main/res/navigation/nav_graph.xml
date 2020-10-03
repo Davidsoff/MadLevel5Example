@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/remindersFragment"
-        android:name="nl.soffware.madlevel4example.RemindersFragment"
+        android:name="nl.soffware.madlevel5example.ui.RemindersFragment"
         android:label="@string/first_fragment_label"
         tools:layout="@layout/fragment_reminders">
         <action
@@ -20,7 +20,7 @@
     </fragment>
     <fragment
         android:id="@+id/addReminderFragment"
-        android:name="nl.soffware.madlevel4example.AddReminderFragment"
+        android:name="nl.soffware.madlevel5example.ui.AddReminderFragment"
         android:label="@string/second_fragment_label"
         tools:layout="@layout/fragment_add_reminder" />
 </navigation>
